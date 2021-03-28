@@ -39,16 +39,16 @@
             </div>
         </div>
         <div class="sidebar">
-            <Sidebar />
+            <Recommend />
         </div>
     </div>
 </template>
 
 <script>
-import Sidebar from '@/components/Sidebar'
+import Recommend from '@/components/Recommend'
 export default {
     components: {
-        Sidebar
+        Recommend
     },
     data() {
         return {}

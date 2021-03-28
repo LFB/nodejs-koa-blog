@@ -31,9 +31,8 @@ export default {
     width: 100%;
     height: 148px;
     padding-top: 24px;
-    border-bottom: 1px solid #f0f0f0;
-    color: #555;
-    border-bottom: none;
+    border-bottom: 1px solid #eee;
+    color: #222;
     line-height: 1.2;
     vertical-align: top;
 

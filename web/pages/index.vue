@@ -4,17 +4,17 @@
             <ArticleItem v-for="item in 10" :key="item" />
         </div>
         <div class="sidebar">
-            <Sidebar />
+            <SiteInfo />
         </div>
     </div>
 </template>
 
 <script>
-import Sidebar from '@/components/Sidebar'
+import SiteInfo from '@/components/SiteInfo'
 import ArticleItem from '@/components/ArticleItem'
 export default {
     components: {
-        Sidebar,
+        SiteInfo,
         ArticleItem
     },
     data() {

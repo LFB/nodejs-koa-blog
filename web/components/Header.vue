@@ -51,30 +51,6 @@ export default {
     text-align: center;
 }
 
-.nav {
-    flex: 1;
-    height: 64px;
-}
-.nav-box {
-    flex: 1;
-    height: 64px;
-    display: flex;
-}
-.nav-item {
-    padding: 0 16px;
-    height: 64px;
-
-    a {
-        display: block;
-        height: 64px;
-        line-height: 64px;
-        color: #222;
-
-        &:hover {
-            color: #0164da;
-        }
-    }
-}
 .search-box {
     position: relative;
     flex: 1;
@@ -96,7 +72,7 @@ export default {
     outline: none;
 
     &:focus {
-        border: 2px solid #222;
+        border: 2px solid #000;
     }
 
     &::placeholder {

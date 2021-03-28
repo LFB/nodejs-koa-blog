@@ -80,8 +80,9 @@ export default {
         line-height: 2;
 
         &:hover {
+            /*border: 2px solid #000;*/
             color: #fff;
-            background: #222;
+            background: #000;
         }
     }
 }
@@ -144,9 +145,10 @@ export default {
             transition-timing-function: ease-in-out;
             transition-delay: 0s;
             line-height: 2;
+            border: 2px solid transparent;
 
             &:hover {
-                background: #f0f0f0;
+                border-color: #000;
             }
         }
     }
