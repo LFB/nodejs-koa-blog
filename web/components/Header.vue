@@ -94,10 +94,9 @@ export default {
     font-size: 14px;
     border: 1px solid #ddd;
     outline: none;
-    transition: 0.2s ease-in;
 
     &:focus {
-        border: 1px solid #222;
+        border: 2px solid #222;
     }
 
     &::placeholder {

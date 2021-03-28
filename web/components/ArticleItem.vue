@@ -9,8 +9,8 @@
 
         <div class="article-item-content">
             <h1 class="article-title">JavaScript 原型链的作用</h1>
-            <div class="article-description">开展深入了解原型链开展深入了解原型链开展深入了解原型链开展深入了解原型链</div>
-            <div class="article-category">javascript</div>
+            <h2 class="article-description">开展深入了解原型链开展深入了解原型链开展深入了解原型链开展深入了解原型链</h2>
+            <p class="article-category">javascript</p>
             <!--                            <NuxtLink to="/" class="read-article-btn">阅读文章</NuxtLink>-->
         </div>
     </NuxtLink>
@@ -101,6 +101,7 @@ export default {
 .article-description {
     font-size: 14px;
     color: #404040;
+    font-weight: 400;
     margin: 12px 0 24px;
 }
 
