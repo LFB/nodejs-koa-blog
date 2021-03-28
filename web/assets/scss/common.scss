@@ -1,0 +1,52 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}
+
+html, body {
+  background: #f4f7f9;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.responsive-box {
+  box-sizing: border-box;
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: 0.6s ease;
+}
+
+.page-enter, .page-leave-active {
+  opacity: 0;
+  transform: translate(8px);
+}
